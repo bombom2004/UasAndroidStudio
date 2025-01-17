@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_blue">#E3F2FD</color> <!-- Warna latar -->
+    <color name="dark_blue">#1565C0</color> <!-- Warna teks -->
+    <color name="primary_button">#0288D1</color> <!-- Warna tombol -->
+    <color name="black">#000000</color> <!-- Warna tombol -->
+    <color name="white">#FFFFFF</color> <!-- Warna tombol -->
+    <color name="grey">#464646</color>
+    <color name="hint_gray">#B0B0B0</color>
+    <color name="gray">#808080</color>
+    <color name="red">#E60000</color>
+    <color name="purple">#8D00E6</color>
+    <color name="operation_button">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="background">#F1F1F1</color>
+
+</resources>

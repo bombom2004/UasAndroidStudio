@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F9"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Foto Profil -->
+            <ImageView
+                android:id="@+id/ImageLogo"
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/bomm"
+                android:contentDescription="Foto Profil" />
+
+            <!-- Nama -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="BomBom Baik"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <!-- About Me -->
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="About Me"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#555555" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/tentang"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp" />
+
+            <!-- Kontak -->
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Kontak"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#555555" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="status: Mashasiswa\Prodi: Sistem Informasi\UKM: TechCode"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp" />
+
+            <!-- Hobi -->
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Hobi"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#555555" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Hobi aku sih suka coba-coba hal baru. Kadang, aku merasa hidup ini seperti aplikasi, selalu ada pembaruan versi baru. Misalnya, kemarin aku baru saja belajar cara masak mie instan tanpa rasa. Hari ini, aku nyobain hobi baru: coba tidur tanpa bantal (ya, jangan ditiru). Pokoknya, hidup itu terlalu singkat untuk cuma stuck di zona nyaman. Jadi, aku berkeliling dunia... dunia yang baru bagi aku setiap hari, meskipun kadang cuma muterin kamar tidur sendiri."
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
